@@ -1,0 +1,38 @@
+<!-- <button class="btn btn-danger" [routerLink]="['./page31']">模块3的第一个子页面</button>
+<button class="btn btn-danger" [routerLink]="['./page32']">模块3的第二个子页面</button>
+ <ul class="list-group">
+    <li class="list-group-item"><a [routerLink]="['/login']" routerLinkActive="active">登录</a></li>
+    <li class="list-group-item"><a [routerLink]="['/page1']" [queryParams]="{id:1,name:'hello',age:20}" routerLinkActive="active">模块1</a></li>
+    <li class="list-group-item"><a [routerLink]="['/page2',1,2]" routerLinkActive="active">模块2</a></li>
+    <li class="list-group-item"><a [routerLink]="['/page3']" routerLinkActive="active">模块3</a></li>
+</ul>
+ -->
+<!-- header -->
+ <div class="head-wrapper">
+ 	<h2>这里是header</h2>
+ </div>
+
+<!-- nav -->
+<div class="nav-wrapper">
+	<ul>
+		<li>
+			<span>模块1</span>
+			<div>
+				<a [routerLink]="['/index/page1']" routerLinkActive="active">模块1-1</a>
+				<a [routerLink]="['/index/page2']" routerLinkActive="active">模块1-2</a>
+			</div>
+		</li>
+		<li>
+			<span>模块2</span>
+			<div>
+				<a [routerLink]="['/index/page3']" routerLinkActive="active">模块2-1</a>
+				<a [routerLink]="['/index/page4']" routerLinkActive="active">模块2-2</a>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<!-- 右侧视图 -->
+<div class="router-wrapper">
+	<router-outlet></router-outlet>
+</div>

@@ -1,0 +1,31 @@
+.login-wrapper{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #555;
+}
+
+.login-wrapper .login-content{
+	margin: 100px auto;
+	padding-top: 40px;
+	width: 400px;
+	height: 500px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.login-wrapper .login-content table{
+	margin: 0 auto;
+}
+
+.login-wrapper .login-content table tr{
+	height: 50px;
+	line-height: 50px;
+}
+
+.login-wrapper .login-content table tr button{
+	width: 180px;
+	height: 30px;
+	cursor: pointer;
+}

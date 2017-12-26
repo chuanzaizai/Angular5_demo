@@ -1,0 +1,57 @@
+
+/*header*/
+.head-wrapper{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background: #317ef3;
+}
+
+/*nav*/
+.nav-wrapper{
+	position: fixed;
+	top:70px;
+	left:0;
+	width: 200px;
+	height: 100%;
+	background: #444;
+}
+
+.nav-wrapper ul{
+	padding: 0;
+	list-style: none;
+}
+
+.nav-wrapper ul li span{
+	display: block;
+	padding-left: 15px;
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+}
+
+.nav-wrapper ul li div a{
+	display: block;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+	text-indent: 35px;
+}
+
+.nav-wrapper ul li div a.active{
+	background: #317ef3;
+	color: #fff;
+}
+
+/*router*/
+.router-wrapper{
+	position: absolute;
+	top: 70px;
+	left: 200px;
+	padding: 20px;
+}
